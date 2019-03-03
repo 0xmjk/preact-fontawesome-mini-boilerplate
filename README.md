@@ -20,12 +20,12 @@ rm -rf .git && git init && npm init
 npm install
 ```
 
-**3. Start dev server: **
+**3. Start dev server:**
 ```sh
 npm run dev
 ```
 
-**4. Build: **
+**4. Build:**
 ```sh
 npm run build
 ```
