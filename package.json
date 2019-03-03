@@ -1,0 +1,30 @@
+{
+  "name": "preact-fontawesome-mini-boilerplate",
+  "version": "1.0.0",
+  "description": "Minimalistic Boilerplate Preact App",
+  "main": "js/main.js",
+  "scripts": {
+    "build": "npx webpack --display-modules",
+    "dev": "npx webpack-dev-server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-regular-svg-icons": "^5.7.2",
+    "preact": "^8.4.2",
+    "preact-compat": "^3.18.4"
+  },
+  "author": {
+    "name": "Michal J Kubski",
+    "email": "michal.kubski@gmail.com"
+  },
+  "license": "MIT"
+}
